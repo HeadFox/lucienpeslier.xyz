@@ -69,7 +69,7 @@ const config = {
   },
   plugins: [
     new ExtractTextPlugin("styles.css"),
-    new HtmlWebpackPlugin({ title: "PackIt", template: "src/main.ejs", lang: "fr" }),
+    new HtmlWebpackPlugin({ title: "Lucien PESLIER", template: "src/main.ejs", lang: "fr" }),
     new ScriptExtHtmlWebpackPlugin({ defaultAttribute: "defer" }),
     new StyleLintPlugin(),
     // new NpmInstallPlugin(),

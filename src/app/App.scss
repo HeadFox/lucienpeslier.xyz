@@ -12,7 +12,12 @@
   background-size: cover;
 
   &__title {
-    font-size: 32px;
+    font-size: 36px;
     color: $white;
+  }
+
+  &__subtitle {
+    padding-bottom: 10px;
+    font-size: 18px;
   }
 }

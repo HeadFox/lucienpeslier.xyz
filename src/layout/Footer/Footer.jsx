@@ -5,6 +5,7 @@ import Icon from "material-ui/Icon";
 import IconButton from "material-ui/IconButton";
 import KeyboardArrowUp from "material-ui-icons/KeyboardArrowUp";
 
+import PresentationContent from "./PresentationContent";
 import FooterContent from "../../components/FooterContent";
 
 const styles = theme => ({
@@ -60,7 +61,7 @@ class Footer extends React.Component {
           <IconButton onClick={this.handleClick} className={classes.button} aria-label="Delete">
             <KeyboardArrowUp color="white" className={classes.arrow} style={footerOpen ? ArrowStyle.open : ArrowStyle.close}/>
           </IconButton>
-          {footerOpen ? <FooterContent /> : ""}
+          {footerOpen ? <FooterContent content={PresentationContent.text}/> : ""}
         </div>
       </div>
     );
