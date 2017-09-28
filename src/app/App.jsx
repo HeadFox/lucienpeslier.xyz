@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// import Main from "../layout/Main";
 import Footer from "../layout/Footer";
 import "./App.scss";
 

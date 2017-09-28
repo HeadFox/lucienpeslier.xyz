@@ -1,3 +1,8 @@
 {
-  "presets": ["es2015", "react"]
+  "presets": ["env", "react"],
+  "plugins": [
+    ["direct-import", ["material-ui"]],
+    ["transform-object-rest-spread"],
+    ["transform-class-properties"],
+  ]
 }

@@ -1,5 +1,8 @@
 module.exports = {
   "extends": "airbnb",
+  "plugins": [
+        "class-property",
+    ],
   "rules": {
     "quotes": ["error", "double"],
   },
